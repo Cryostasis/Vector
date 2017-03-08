@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(153): warning C4244: '=': conversion from 'double' to 'std::size_t', possible loss of data
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(149): note: while compiling class template member function 'void Vector<int>::alloc_more(void)'
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(161): note: see reference to function template instantiation 'void Vector<int>::alloc_more(void)' being compiled
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(159): note: while compiling class template member function 'void Vector<int>::check_alloc(void)'
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(63): note: see reference to function template instantiation 'void Vector<int>::check_alloc(void)' being compiled
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\vector.h(47): note: while compiling class template member function 'Vector<int>::Vector(std::size_t,T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\main.cpp(26): note: see reference to function template instantiation 'Vector<int>::Vector(std::size_t,T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\main.cpp(10): note: see reference to class template instantiation 'Vector<int>' being compiled
+  Vector.vcxproj -> C:\Users\argon\documents\visual studio 2015\Projects\Vector\Debug\Vector.exe
+  Vector.vcxproj -> C:\Users\argon\documents\visual studio 2015\Projects\Vector\Debug\Vector.pdb (Full PDB)

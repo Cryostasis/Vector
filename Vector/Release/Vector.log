@@ -1,0 +1,25 @@
+﻿  Vector.cpp
+  main.cpp
+c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(150): warning C4244: 'argument': conversion from 'double' to 'std::size_t', possible loss of data
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(149): note: while compiling class template member function 'void Vector<int>::alloc_more(void)'
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(157): note: see reference to function template instantiation 'void Vector<int>::alloc_more(void)' being compiled
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(155): note: while compiling class template member function 'void Vector<int>::check_alloc(void)'
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(64): note: see reference to function template instantiation 'void Vector<int>::check_alloc(void)' being compiled
+  c:\users\argon\documents\visual studio 2015\projects\vector\vector\Vector.h(47): note: while compiling class template member function 'Vector<int>::Vector(std::size_t,T)'
+          with
+          [
+              T=int
+          ]
+  main.cpp(26): note: see reference to function template instantiation 'Vector<int>::Vector(std::size_t,T)' being compiled
+          with
+          [
+              T=int
+          ]
+  main.cpp(10): note: see reference to class template instantiation 'Vector<int>' being compiled
+  Generating code
+  6 of 574 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Vector.vcxproj -> C:\Users\argon\documents\visual studio 2015\Projects\Vector\Release\Vector.exe
+  Vector.vcxproj -> C:\Users\argon\documents\visual studio 2015\Projects\Vector\Release\Vector.pdb (Full PDB)
